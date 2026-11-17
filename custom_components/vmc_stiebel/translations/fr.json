@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "VMC Stiebel",
+        "description": "Identifiants du compte MyStiebel. Seule la VMC (profil LWZx80) est ajoutée : lecture des valeurs, et changement du niveau de ventilation.",
+        "data": {
+          "username": "Adresse e-mail MyStiebel",
+          "password": "Mot de passe"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Reconnexion MyStiebel",
+        "description": "Le mot de passe MyStiebel a été refusé. Saisissez-le à nouveau.",
+        "data": {
+          "password": "Mot de passe"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Identifiants refusés par MyStiebel.",
+      "cannot_connect": "Impossible de joindre le cloud MyStiebel.",
+      "no_device": "Aucune VMC (profil LWZx80) unique trouvée dans ce compte."
+    },
+    "abort": {
+      "already_configured": "Cette VMC est déjà configurée.",
+      "reauth_successful": "Reconnexion réussie."
+    }
+  }
+}

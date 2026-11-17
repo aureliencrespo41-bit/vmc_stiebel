@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Stiebel ventilation",
+        "description": "MyStiebel account credentials. Only the ventilation unit (profile LWZx80) is added: values are read, and the fan level can be changed.",
+        "data": {
+          "username": "MyStiebel e-mail",
+          "password": "Password"
+        }
+      },
+      "reauth_confirm": {
+        "title": "MyStiebel re-authentication",
+        "description": "The MyStiebel password was rejected. Please enter it again.",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Credentials rejected by MyStiebel.",
+      "cannot_connect": "Cannot reach the MyStiebel cloud.",
+      "no_device": "No single ventilation unit (profile LWZx80) found in this account."
+    },
+    "abort": {
+      "already_configured": "This unit is already configured.",
+      "reauth_successful": "Re-authentication successful."
+    }
+  }
+}
